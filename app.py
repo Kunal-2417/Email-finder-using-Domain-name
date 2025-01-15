@@ -11,7 +11,7 @@ HUNTER_API_KEY = 'YOUR_HUNTER_API_KEY'
 # Function to get emails using Hunter.io API
 def get_emails_from_hunter(domain):
     print(domain)
-    # url = f"https://api.hunter.io/v2/email-finder?domain=reddit.com&first_name=Alexis&last_name=Ohanian&api_key=b5c2135e2f84aa84c50c7cf611667a15d0758e7b"
+    
     url = f"https://api.hunter.io/v2/domain-search?domain={domain}&api_key={HUNTER_API_KEY}"
     
     try:
